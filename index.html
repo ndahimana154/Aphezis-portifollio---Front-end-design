@@ -247,5 +247,18 @@
 
 	<!---custom js link--->
 	<script type="text/javascript" src="js/script.js"></script>
+	<script src="https://smtpjs.com/v3/smtp.js">
+		Email.send({
+			Host : "smtp.elasticemail.com",
+			Username : "bonheurndahimana125@gmail.com",
+			Password : "E473131B40B21AF0CBE54F6D5D280AA8D2B4",
+			To : 'them@website.com',
+			From : "you@isp.com",
+			Subject : "This is the subject",
+			Body : "And this is the body"
+		}).then(
+		message => alert(message)
+		);
+	</script>
 </body>
 </html>
