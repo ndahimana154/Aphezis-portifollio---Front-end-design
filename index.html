@@ -1,264 +1,275 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>APHESIZ CO LTD</title>
-	<!---custom css link--->
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-
-	<link rel="stylesheet"
-  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Aphesiz co.</title>
 </head>
 <body>
-
-	<!---header--->
-	<header>
-		<a href="#" class="logo"><img src="img/logo.png"></a>
-		<div class="bx bx-menu" id="menu-icon"></div>
-
-		<ul class="navbar">
-			<li><a href="#home">Home</a></li>
-			<li><a href="#about">About us</a></li>
-			<li><a href="#services">Services</a></li>
-			<li><a href="#portfolio">Gallery</a></li>
-			<li><a href="#contact">Contacts</a></li>
-		</ul>
-	</header>
-
-	<!---home--->
-	<section class="home" id="home">
-		<div class="home-text">
-			<!-- <h4>We're</h4> -->
-			<h1>Aphesiz<br>
-				 <span>Crypto</span> &</h1> 
-			<h1>
-				<span>
-					Forex
-				</span>
+	<div class="big-container">
+		<div class="header" id="header">
+			<div class="logo">
+				<a href="">
+					Aphesiz <b>.</b>
+				</a>
+			</div>
+			<div class="link">
+				<ul>
+					<li>
+						<a href="#home-sect">
+							Home
+						</a>
+					</li>
+					<li>
+						<a href="#about-sect">
+							About
+						</a>
+					</li>
+					<li>
+						<a href="#founders-sect">
+							Founders
+						</a>
+					</li>
+					<li>
+						<a href="#services-sect">
+							Services
+						</a>
+					</li>
+					<li>
+						<a href="#contacts-sect">
+							Contacts
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div id="slider">
+			<ul id="slideWrap">
+				<li><img src="img/slide2.jpg" alt=""></li>
+				<li><img src="img/slide3.jpg" alt=""></li>
+				<li><img src="img/slide4.jpg" alt=""></li>
+				<li><img src="img/slide1.jpg" alt=""></li>
+				<li><img src="img/slide2.jpg" alt=""></li>
+			</ul>
+			<a id="prev" href="#">&#8810;</a>
+		    <a id="next" href="#">&#8811;</a>
+			<!-- Javascript for sliding images -->
+			<script src="js/sliding.js"></script>
+		</div>
+		<div class="part about-sect" id="about-sect">
+			<h1 class="part-h1">
+				About us
 			</h1>
-			<a href="#contact" class="btn">Work with us</a>
-		</div>
-	</section>
-
-	<!---about--->
-	<section class="about" id="about">
-		<div class="about-img">
-			<img src="img/about.jpg">
-		</div>
-
-		<div class="about-text">
-			<h2>About Us</h2>
-			<h4>Hi, We're here for you in Crypto Currency</h4>
-			<p>Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry. Lorem Ipsum Has Been The Industry's Standard Dummy Text Ever Since The 1500s, When An .ac porta sem turpis quis leo. Nulla in feugiat elit.</p>
-			<div class="about-gri">
-				<div class="about-in">
-					<h5>1. Problem Solving</h5>
+			<div class="about-row">
+				<div class="left">
+					<img src="img/about-pic.png" alt="">
 				</div>
-
-				<div class="about-in">
-					<h5>2. Creative Idea</h5>
+				<div class="right">
+					<h3>
+						We're the biggest in Rwanda
+					</h3>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dolorem architecto excepturi error quibusdam fugit quos iste doloremque dicta! Voluptatum, suscipit dolorem? Facere commodi consectetur, quod iusto dolores laudantium laboriosam!
+					</p>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dolorem architecto excepturi error quibusdam fugit quos iste doloremque dicta! Voluptatum, suscipit dolorem? Facere commodi consectetur, quod iusto dolores laudantium laboriosam!
+					</p>
 				</div>
-
-				<div class="about-in">
-					<h5>3. Search a lot</h5>
-				</div>
-
-				<div class="about-in">
-					<h5>4. High Quality</h5>
-				</div>
-
 			</div>
-			<!-- <a href="#" class="btn">Contact Me</a> -->
 		</div>
-	</section>
-	<section class="portfolio">
-		<div class="main-text">
-			<h2>Company leaders</h2>
-			<h4>Chiefs and directors of the company</h4>
-		</div>
-
-		<div class="portfolio-content">
-
-			<div class="row">
-				<img src="img/Co CEOS.png">
-				<div class="main-row">
-					<div class="row-text">
-						<h6>General Director</h6>
+		<div class="part founders-sect" id="founders-sect">
+			<h1 class="part-h1">
+				Company founders
+			</h1>
+			<div class="founders-row">
+				<div class="box">
+					<div class="img">
+						<img src="img/Co CEOS.png" alt="">
 					</div>
-					<div class="row-icon">
-						<i class='bx bx-heart'></i>
+					<div class="text">
+						<span>
+							CEO and Founder
+						</span>
+						<h3>
+							Rai Crypto
+						</h3>
 					</div>
 				</div>
-				<h3>John Doe</h3>
-			</div>
-
-			<div class="row">
-				<img src="img/Co CEOS 2.png">
-				<div class="main-row">
-					<div class="row-text">
-						<h6>Chief Executive Officer</h6>
+				<div class="box">
+					<div class="img">
+						<img src="img/Co CEOS.png" alt="">
 					</div>
-					<div class="row-icon">
-						<i class='bx bx-heart'></i>
-					</div>
-				</div>
-				<h3>Lorem Ipsum</h3>
-			</div>
-
-
-		</div>
-	</section>
-	<!---services--->
-	<section class="services" id="services">
-		<div class="main-text">
-			<h2>Our Services</h2>
-			<!-- <h4>Crypto Currency, Forex</h4> -->
-		</div>
-
-		<div class="services-content">
-			<div class="box">
-				<img src="img/serv1.png">
-				<h3>Crypto Currency</h3>
-				<p>Lorem Ipsum Is Simply Dummy Text Of The Printing Andtypesetting Industry. Lorem Ipsum Has Been The Website Industry's Standard Dummy .</p>
-			</div>
-
-			<div class="box">
-				<img src="img/serv2.png">
-				<h3>Forex</h3>
-				<p>Lorem Ipsum Is Simply Dummy Text Of The Printing Andtypesetting Industry. Lorem Ipsum Has Been The Website Industry's Standard Dummy .</p>
-			</div>
-			<div class="box">
-				<img src="img/serv2.png">
-				<h3>Programming</h3>
-				<p>Lorem Ipsum Is Simply Dummy Text Of The Printing Andtypesetting Industry. Lorem Ipsum Has Been The Website Industry's Standard Dummy .</p>
-			</div>
-
-		</div>
-	</section>
-
-	<!---portfolio--->
-	<section class="portfolio" id="portfolio">
-		<div class="main-text">
-			<h2>Gallery store</h2>
-			<h4>Some Of our unvaluable Works</h4>
-		</div>
-
-		<div class="portfolio-content">
-			<div class="row">
-				<img src="img/portfolio1.jpg">
-				<div class="main-row">
-					<div class="row-text">
-						<h6>Coins store</h6>
-					</div>
-					<div class="row-icon">
-						<i class='bx bx-heart'></i>
+					<div class="text">
+						<span>
+							CEO and Founder
+						</span>
+						<h3>
+							Rai Crypto
+						</h3>
 					</div>
 				</div>
-				<h3>We do create crypto coins</h3>
-			</div>
-
-			<div class="row">
-				<img src="img/portfolio2.jpg">
-				<div class="main-row">
-					<div class="row-text">
-						<h6>Analysis</h6>
-					</div>
-					<div class="row-icon">
-						<i class='bx bx-heart'></i>
-					</div>
-				</div>
-				<h3>Crypto market analysis</h3>
-			</div>
-
-			<div class="row">
-				<img src="img/portfolio3.jpg">
-				<div class="main-row">
-					<div class="row-text">
-						<h6>Crypto ideas</h6>
-					</div>
-					<div class="row-icon">
-						<i class='bx bx-heart'></i>
-					</div>
-				</div>
-				<h3>Ideas about Crypto market</h3>
-			</div>
-
-			<div class="row">
-				<img src="img/portfolio4.jpg">
-				<div class="main-row">
-					<div class="row-text">
-						<h6>Delivery</h6>
-					</div>
-					<div class="row-icon">
-						<i class='bx bx-heart'></i>
-					</div>
-				</div>
-				<h3>Crypto coins delivery on any platforms</h3>
-			</div>
-
-		</div>
-	</section>
-
-	<!---contact--->
-	<section class="contact" id="contact">
-		<div class="contact-text">
-			<h2>Contact Us</h2>
-			<h4>Let's Work Together</h4>
-			<p>We do care and respect our clients, in all different genres</p>
-			<div class="contact-list">
-				<li><a href="#">Kigali - Kicukiro - Rwanda</a></li>
-				<li><a href="#">customercare@aphesiz.com</a></li>
-				<li><a href="#">01646895741</a></li>
-			</div>
-			<div class="contact-icons">
-				<a href="#"><i class='bx bxl-linkedin' ></i></a>
-				<a href="#"><i class='bx bxl-facebook' ></i></a>
-				<a href="#"><i class='bx bxl-behance' ></i></a>
-				<a href="#"><i class='bx bxl-instagram' ></i></a>
-				<a href="#"><i class='bx bxl-dribbble' ></i></a>
 			</div>
 		</div>
-
-		<div class="contact-form">
-			<form action="">
-				<input type="" placeholder="Enter Your Name" required>
-				<input type="email" placeholder="Enter Your Email" required>
-				<input type="" placeholder="Enter Your Subject">
-				<textarea name="" id="" cols="40" rows="10" placeholder="Enter Your Message" required></textarea>
-				<input type="submit" value="Submit" class="send">
-			</form>
+		<div class="part services-sect" id="services-sect">
+			<h1 class="part-h1">
+				Services
+			</h1>
+			<div class="services-row">
+				<div class="box">
+					<div class="img">
+						<img src="img/service-sample.png" alt="">
+					</div>
+					<div class="text">
+						<h3>
+							Service name
+						</h3>
+						<p>
+							Lorem ipsum dolor sit amet 
+							consectetur adipisicing elit. 
+							Officia obcaecati voluptas nam beatae 
+							labore accusantium itaque eos libero, 
+							dolorem nemo, hic a veniam deserunt 
+							sed cum veritatis praesentium 
+							voluptates saepe.
+						</p>
+					</div>
+				</div>
+				<div class="box">
+					<div class="img">
+						<img src="img/service-sample.png" alt="">
+					</div>
+					<div class="text">
+						<h3>
+							Service name
+						</h3>
+						<p>
+							Lorem ipsum dolor sit amet 
+							consectetur adipisicing elit. 
+							Officia obcaecati voluptas nam beatae 
+							labore accusantium itaque eos libero, 
+							dolorem nemo, hic a veniam deserunt 
+							sed cum veritatis praesentium 
+							voluptates saepe.
+						</p>
+					</div>
+				</div>
+				<div class="box">
+					<div class="img">
+						<img src="img/service-sample.png" alt="">
+					</div>
+					<div class="text">
+						<h3>
+							Service name
+						</h3>
+						<p>
+							Lorem ipsum dolor sit amet 
+							consectetur adipisicing elit. 
+							Officia obcaecati voluptas nam beatae 
+							labore accusantium itaque eos libero, 
+							dolorem nemo, hic a veniam deserunt 
+							sed cum veritatis praesentium 
+							voluptates saepe.
+						</p>
+					</div>
+				</div>
+				<div class="box">
+					<div class="img">
+						<img src="img/service-sample.png" alt="">
+					</div>
+					<div class="text">
+						<h3>
+							Service name
+						</h3>
+						<p>
+							Lorem ipsum dolor sit amet 
+							consectetur adipisicing elit. 
+							Officia obcaecati voluptas nam beatae 
+							labore accusantium itaque eos libero, 
+							dolorem nemo, hic a veniam deserunt 
+							sed cum veritatis praesentium 
+							voluptates saepe.
+						</p>
+					</div>
+				</div>
+			</div>
 		</div>
-	</section>
-
-	<div class="last-text">
-		<p>Developed  by ndahimana154 </p>
+		<div class="part contacts-sect" id="contacts-sect">
+			<h1 class="part-h1">
+				Contacts
+			</h1>
+			<div class="contacts-row">
+				<div class="address">
+					<h2>
+						
+					</h2>
+					<div class="loc">
+						<p>
+							<span>
+								Email:
+							</span>
+							<a href="mailto: someone@example.com">
+								someone@example.com
+							</a>
+						</p>
+						<p>
+							<span>
+								Tel:
+							</span>
+							<a href="tel: +250788123456">
+								+250788123456
+							</a>
+						</p>
+					</div>
+					<ul>
+						<li>
+							<a href="">
+								<svg xmlns="http://www.w3.org/2000/svg" 
+								viewBox="0 0 448 512">
+								<!--! Font Awesome Free 6.2.0 by @fontawesome - 
+									https://fontawesome.com License - 
+									https://fontawesome.com/license/free (
+										Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT 
+										License) Copyright 2022 Fonticons, Inc. -->
+										<path d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z"/></svg>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M224,202.66A53.34,53.34,0,1,0,277.36,256,53.38,53.38,0,0,0,224,202.66Zm124.71-41a54,54,0,0,0-30.41-30.41c-21-8.29-71-6.43-94.3-6.43s-73.25-1.93-94.31,6.43a54,54,0,0,0-30.41,30.41c-8.28,21-6.43,71.05-6.43,94.33S91,329.26,99.32,350.33a54,54,0,0,0,30.41,30.41c21,8.29,71,6.43,94.31,6.43s73.24,1.93,94.3-6.43a54,54,0,0,0,30.41-30.41c8.35-21,6.43-71.05,6.43-94.33S357.1,182.74,348.75,161.67ZM224,338a82,82,0,1,1,82-82A81.9,81.9,0,0,1,224,338Zm85.38-148.3a19.14,19.14,0,1,1,19.13-19.14A19.1,19.1,0,0,1,309.42,189.74ZM400,32H48A48,48,0,0,0,0,80V432a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V80A48,48,0,0,0,400,32ZM382.88,322c-1.29,25.63-7.14,48.34-25.85,67s-41.4,24.63-67,25.85c-26.41,1.49-105.59,1.49-132,0-25.63-1.29-48.26-7.15-67-25.85s-24.63-41.42-25.85-67c-1.49-26.42-1.49-105.61,0-132,1.29-25.63,7.07-48.34,25.85-67s41.47-24.56,67-25.78c26.41-1.49,105.59-1.49,132,0,25.63,1.29,48.33,7.15,67,25.85s24.63,41.42,25.85,67.05C384.37,216.44,384.37,295.56,382.88,322Z"/></svg>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-48.9 158.8c.2 2.8.2 5.7.2 8.5 0 86.7-66 186.6-186.6 186.6-37.2 0-71.7-10.8-100.7-29.4 5.3.6 10.4.8 15.8.8 30.7 0 58.9-10.4 81.4-28-28.8-.6-53-19.5-61.3-45.5 10.1 1.5 19.2 1.5 29.6-1.2-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3a65.447 65.447 0 0 1-29.2-54.6c0-12.2 3.2-23.4 8.9-33.1 32.3 39.8 80.8 65.8 135.2 68.6-9.3-44.5 24-80.6 64-80.6 18.9 0 35.9 7.9 47.9 20.7 14.8-2.8 29-8.3 41.6-15.8-4.9 15.2-15.2 28-28.8 36.1 13.2-1.4 26-5.1 37.8-10.2-8.9 13.1-20.1 24.7-32.9 34z"/></svg>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="email-form">
+					<h2>
+						Subscribe to our newsletter
+					</h2>
+					<form action="" method="post">
+						<p>
+							<input type="email" name="" placeholder="Type your email...">
+						</p>
+						<p>
+							<button type="submit">
+								Subscribe
+							</button>
+						</p>
+					</form>
+				</div>
+			</div>
+		</div>
 	</div>
-
-	<!---scroll-top--->
-	<a href="#" class="top"><i class='bx bx-up-arrow-alt' ></i></a>
-
+	<!-- Icon for back on top -->
+	<a href="#" class="top-icon"><i class='bx bx-up-arrow-alt ' ></i></a>	
+	<!-- Js for animations when scrolling -->
 	<script src="https://unpkg.com/scrollreveal"></script>
-
-	<!---custom js link--->
-	<script type="text/javascript" src="js/script.js"></script>
-	<script src="https://smtpjs.com/v3/smtp.js">
-		Email.send({
-			Host : "smtp.elasticemail.com",
-			Username : "bonheurndahimana125@gmail.com",
-			Password : "E473131B40B21AF0CBE54F6D5D280AA8D2B4",
-			To : 'them@website.com',
-			From : "you@isp.com",
-			Subject : "This is the subject",
-			Body : "And this is the body"
-		}).then(
-		message => alert(message)
-		);
-	</script>
-</body>
+	<!-- General script used in this file -->
+	<script src="js/script.js"></script>
 </html>
